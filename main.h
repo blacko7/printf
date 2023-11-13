@@ -24,11 +24,16 @@ int print_oct(va_list val);
 int print_hex(va_list val);
 int print_HEX(va_list val);
 int print_exc_string(va_list val);
+<<<<<<< HEAD
 int print_HEX_extra(unsigned int num);
 int print_pointer(va_list val);
 int print_hex_extra(unsigned long int num);
 int print_revs(va_list args);
 int print_rot13(va_list args);
+=======
+int print_pointer(va_list val)
+int print_hex_extra(unsigned long int num);
+>>>>>>> 771f4949655f4a148686f9bb01d95957aabffc55
 
  
 #endif

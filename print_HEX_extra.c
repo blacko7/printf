@@ -1,16 +1,15 @@
 #include "main.h"
 
 /**
- * print_HEX - a func. that prints a hexadecimal
- * @val: arguments
+ * print_HEX_extra - func. that prints an hexadecimals
+ * @num: number
  * Return: counter
  */
-int print_HEX(va_list val)
+int print_HEX_extra(unsigned int num)
 {
 	int i;
 	int *array;
 	int counter = 0;
-	unsigned int num = va_arg(val, unsigned int);
 	unsigned int tem = num;
 
 	while (num / 16 != 0)

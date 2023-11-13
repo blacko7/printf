@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *@_strlen: functions that tells the length of a string
+ *_strlen - functions that tells the length of a string
  *@str: string pointer
  *Return: i
  *
@@ -11,20 +11,19 @@ int _strlen(char *str)
 
 	for (i = 0; str[i] != 0; i++)
 		;
-	return(i);
+	return (i);
 }
 
 /**
- *@_strlen: strlen function for constant char pointers
+ *_strlenc - strlen function for constant char pointers
  *@str: argument
  *Return: i
- *
  */
 int _strlenc(const char *str)
 {
-        int i;
+	int i;
 
-        for (i = 0; str[i] != 0; i++)
-                ;
-        return(i);
+	for (i = 0; str[i] != 0; i++)
+		;
+	return (i);
 }

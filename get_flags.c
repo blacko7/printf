@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * get_flags - func. that calculates active flags
+ * get_flags - func. it  calculates active flags
  * @format: Formatted string in which to print the arguments
  * @i: take a parameter
  * Return: Flags
